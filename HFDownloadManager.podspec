@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HFDownloadManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HFDownloadManager.'
+  s.summary          = 'HFDownloadManager.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = ' 基于NSURLSession封装的断点续传类，用于大文件下载，退出程序后，下次接着下载'
 
-  s.homepage         = 'https://github.com/zack/HFDownloadManager'
+  s.homepage         = 'https://github.com/CoderHFZhu/HFDownloadManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zack' => '54666674@qq.com' }
-  s.source           = { :git => 'https://github.com/zack/HFDownloadManager.git', :tag => s.version.to_s }
+  s.author           = { 'CoderHFZhu' => '54666674@qq.com' }
+  s.source           = { :git => 'https://github.com/CoderHFZhu/HFDownloadManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
