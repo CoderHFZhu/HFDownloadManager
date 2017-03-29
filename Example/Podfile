@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HFDownloadManager_Example' do
+  pod 'HFDownloadManager', :path => '../'
+
+  target 'HFDownloadManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
