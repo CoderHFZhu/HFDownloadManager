@@ -1,0 +1,6 @@
+framework module HFDownloadManager {
+  umbrella header "HFDownloadManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

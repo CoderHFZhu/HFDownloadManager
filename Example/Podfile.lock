@@ -1,0 +1,16 @@
+PODS:
+  - HFDownloadManager (0.1.0)
+
+DEPENDENCIES:
+  - HFDownloadManager (from `../`)
+
+EXTERNAL SOURCES:
+  HFDownloadManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HFDownloadManager: 6c45da47efdac955fffcd12a03970b9da29b2b4c
+
+PODFILE CHECKSUM: 98e7381d1eda3380a25803445b222e82372316ba
+
+COCOAPODS: 1.2.1.beta.1

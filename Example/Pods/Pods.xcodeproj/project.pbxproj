@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2331361CA65707215D1F5695C40140A9 /* HFDownloadManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B189519F8C053A2AAEDC3B3C3B2EAE3F /* HFDownloadManager-dummy.m */; };
+		389DC8805A95B113353F58710C963F9F /* Pods-HFDownloadManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EBA153AE8988DEED7B24F9CE491FFA4 /* Pods-HFDownloadManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39D9B33FC91D48910295BBC4E68B1732 /* HFDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5828D7B4CEDDE9DCFC5985EAF31BBD /* HFDownloadManager.m */; };
+		48B6AD26FE4AFBADC2F84DA9F106597A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7FE1BEDD25A862155300B17D9657BF4D /* Pods-HFDownloadManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC49724FF6BAF109B021B69F3F542572 /* Pods-HFDownloadManager_Tests-dummy.m */; };
+		9CAEE8A42DD2A1C50E1B4F27E1D2E435 /* HFDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 301EB3825D9C757D68DD51F5EC6B7F26 /* HFDownloader.m */; };
+		A45CFC1F3E69175615E37BF69F148273 /* Pods-HFDownloadManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542D7B5B77636417B1947E7FC8A4291 /* Pods-HFDownloadManager_Example-dummy.m */; };
+		C1ADA361B49BC0D0C61AE39A53523FFA /* HFDownloadManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDEA153ABA7BD62624EFEDC878167002 /* HFDownloadManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D083DE5D80198D761CC50E9060A89AA6 /* HFDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = F844DD37F5FC532FD8347F2D587EBDF0 /* HFDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D64F5C729423EB5339307753854CBA6D /* Pods-HFDownloadManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA37D37362F066359C9FC4F5DAD50E9E /* Pods-HFDownloadManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8FD944DA4874F69B6C22537756B4A77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		DEBFA9CEBC88C962DB261A7ED6F279FE /* HFDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 88E91211AF3A13402D629278B25DD427 /* HFDownloadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1AA39654FD2971831A7D573218109C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B0CE9FB89E93EDE8CB5273A672EEB23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD8B6AF9679F103A5DD7BF550033B5E;
+			remoteInfo = HFDownloadManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01EB8FE41EF288592F21D700D5679DCE /* Pods-HFDownloadManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFDownloadManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0864E576C483C84EC55DD02171983E43 /* HFDownloadManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFDownloadManager-prefix.pch"; sourceTree = "<group>"; };
+		119013630059EE936C7A67943589FEB8 /* Pods-HFDownloadManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFDownloadManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1926AC8940D7369133033419A59A3DDD /* Pods-HFDownloadManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFDownloadManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1EF36B717C3076F200D88462090E97EE /* Pods-HFDownloadManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFDownloadManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		2C9838EA55FB0895BFE41311D9847F59 /* Pods-HFDownloadManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFDownloadManager_Example-resources.sh"; sourceTree = "<group>"; };
+		301EB3825D9C757D68DD51F5EC6B7F26 /* HFDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HFDownloader.m; sourceTree = "<group>"; };
+		421F551AC3B2C30922E0C69F871FFA55 /* Pods-HFDownloadManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFDownloadManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4BFFD1F47D4D02840885E629D463AD1E /* HFDownloadManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HFDownloadManager.framework; path = HFDownloadManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2662B5CE2D1592B5145B940BDE3AE7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D09F3A84F4616356BB7FE47E9796D5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72371F82ABBB91F6F21B7F2799A0A110 /* Pods-HFDownloadManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFDownloadManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		809B905BC41F74AE611CB21E60711B6C /* Pods_HFDownloadManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HFDownloadManager_Example.framework; path = "Pods-HFDownloadManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8542D7B5B77636417B1947E7FC8A4291 /* Pods-HFDownloadManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFDownloadManager_Example-dummy.m"; sourceTree = "<group>"; };
+		86ED04157F7BDF54F54A0AD816007848 /* Pods-HFDownloadManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFDownloadManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		86F808D43656ECD078AEB868050FA499 /* Pods-HFDownloadManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HFDownloadManager_Tests.modulemap"; sourceTree = "<group>"; };
+		88E91211AF3A13402D629278B25DD427 /* HFDownloadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HFDownloadManager.h; sourceTree = "<group>"; };
+		8F3A11ABDAECC6E2D195CC52AF523DF2 /* Pods-HFDownloadManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HFDownloadManager_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EBA153AE8988DEED7B24F9CE491FFA4 /* Pods-HFDownloadManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HFDownloadManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AFBD0C74257A87CD274987E0906A27C7 /* HFDownloadManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFDownloadManager.xcconfig; sourceTree = "<group>"; };
+		B189519F8C053A2AAEDC3B3C3B2EAE3F /* HFDownloadManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HFDownloadManager-dummy.m"; sourceTree = "<group>"; };
+		C5887D859C21343AFA9974F76C69958E /* Pods-HFDownloadManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFDownloadManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D555034D0B7CF2B6902F06F82CB77D62 /* Pods-HFDownloadManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFDownloadManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D5AE28BE79BC772266B4BD839D5DAD21 /* Pods_HFDownloadManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HFDownloadManager_Tests.framework; path = "Pods-HFDownloadManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC49724FF6BAF109B021B69F3F542572 /* Pods-HFDownloadManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFDownloadManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		E2BCDBFCDE46863562803F69EE9F256A /* HFDownloadManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HFDownloadManager.modulemap; sourceTree = "<group>"; };
+		F844DD37F5FC532FD8347F2D587EBDF0 /* HFDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HFDownloader.h; sourceTree = "<group>"; };
+		F9AA1BC65FFEF7CED0D522998DA19457 /* Pods-HFDownloadManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFDownloadManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA37D37362F066359C9FC4F5DAD50E9E /* Pods-HFDownloadManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HFDownloadManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		FA4A908DA62AD1385AC724E72F1EFBDB /* Pods-HFDownloadManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFDownloadManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCB4AA038DE0CECC6F782768034C1EB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5828D7B4CEDDE9DCFC5985EAF31BBD /* HFDownloadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HFDownloadManager.m; sourceTree = "<group>"; };
+		FDEA153ABA7BD62624EFEDC878167002 /* HFDownloadManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFDownloadManager-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F13A19A13174AAF0B968CB0C6082DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1AA39654FD2971831A7D573218109C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1F9868C570811D51D3994F2E861148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8FD944DA4874F69B6C22537756B4A77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B078C4F5992B56371AA263C8A237FC16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B6AD26FE4AFBADC2F84DA9F106597A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B1E7A8D09A663C881393254484824B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F4A1B2A814115613B9412654982845F6 /* HFDownloader */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		197AD2F39168B2F19D9B94F9BB4374E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BFFD1F47D4D02840885E629D463AD1E /* HFDownloadManager.framework */,
+				809B905BC41F74AE611CB21E60711B6C /* Pods_HFDownloadManager_Example.framework */,
+				D5AE28BE79BC772266B4BD839D5DAD21 /* Pods_HFDownloadManager_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		235F1A93FD844BBC02E87DC1A5D5983C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AA5A746CE4FFA519BB09B4F29CFABC3 /* Pods-HFDownloadManager_Example */,
+				6E6F658E15BD1D0D9E9F5391B9D18B5E /* Pods-HFDownloadManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		285B3EB21F5E527E3A00747A6BB9645C /* HFDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				18B1E7A8D09A663C881393254484824B /* Classes */,
+			);
+			name = HFDownloadManager;
+			path = HFDownloadManager;
+			sourceTree = "<group>";
+		};
+		2AA5A746CE4FFA519BB09B4F29CFABC3 /* Pods-HFDownloadManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5C2662B5CE2D1592B5145B940BDE3AE7 /* Info.plist */,
+				8F3A11ABDAECC6E2D195CC52AF523DF2 /* Pods-HFDownloadManager_Example.modulemap */,
+				1926AC8940D7369133033419A59A3DDD /* Pods-HFDownloadManager_Example-acknowledgements.markdown */,
+				F9AA1BC65FFEF7CED0D522998DA19457 /* Pods-HFDownloadManager_Example-acknowledgements.plist */,
+				8542D7B5B77636417B1947E7FC8A4291 /* Pods-HFDownloadManager_Example-dummy.m */,
+				01EB8FE41EF288592F21D700D5679DCE /* Pods-HFDownloadManager_Example-frameworks.sh */,
+				2C9838EA55FB0895BFE41311D9847F59 /* Pods-HFDownloadManager_Example-resources.sh */,
+				FA37D37362F066359C9FC4F5DAD50E9E /* Pods-HFDownloadManager_Example-umbrella.h */,
+				119013630059EE936C7A67943589FEB8 /* Pods-HFDownloadManager_Example.debug.xcconfig */,
+				86ED04157F7BDF54F54A0AD816007848 /* Pods-HFDownloadManager_Example.release.xcconfig */,
+			);
+			name = "Pods-HFDownloadManager_Example";
+			path = "Target Support Files/Pods-HFDownloadManager_Example";
+			sourceTree = "<group>";
+		};
+		434EAE668E37CB0B9A502D64A09AEB79 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDC7AB44D29E077F7D8DD868A1DB4479 /* HFDownloadManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6E6F658E15BD1D0D9E9F5391B9D18B5E /* Pods-HFDownloadManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FCB4AA038DE0CECC6F782768034C1EB6 /* Info.plist */,
+				86F808D43656ECD078AEB868050FA499 /* Pods-HFDownloadManager_Tests.modulemap */,
+				72371F82ABBB91F6F21B7F2799A0A110 /* Pods-HFDownloadManager_Tests-acknowledgements.markdown */,
+				C5887D859C21343AFA9974F76C69958E /* Pods-HFDownloadManager_Tests-acknowledgements.plist */,
+				DC49724FF6BAF109B021B69F3F542572 /* Pods-HFDownloadManager_Tests-dummy.m */,
+				D555034D0B7CF2B6902F06F82CB77D62 /* Pods-HFDownloadManager_Tests-frameworks.sh */,
+				1EF36B717C3076F200D88462090E97EE /* Pods-HFDownloadManager_Tests-resources.sh */,
+				9EBA153AE8988DEED7B24F9CE491FFA4 /* Pods-HFDownloadManager_Tests-umbrella.h */,
+				FA4A908DA62AD1385AC724E72F1EFBDB /* Pods-HFDownloadManager_Tests.debug.xcconfig */,
+				421F551AC3B2C30922E0C69F871FFA55 /* Pods-HFDownloadManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-HFDownloadManager_Tests";
+			path = "Target Support Files/Pods-HFDownloadManager_Tests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				434EAE668E37CB0B9A502D64A09AEB79 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				197AD2F39168B2F19D9B94F9BB4374E2 /* Products */,
+				235F1A93FD844BBC02E87DC1A5D5983C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B300DF826C3734944FA25A2154182E71 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2BCDBFCDE46863562803F69EE9F256A /* HFDownloadManager.modulemap */,
+				AFBD0C74257A87CD274987E0906A27C7 /* HFDownloadManager.xcconfig */,
+				B189519F8C053A2AAEDC3B3C3B2EAE3F /* HFDownloadManager-dummy.m */,
+				0864E576C483C84EC55DD02171983E43 /* HFDownloadManager-prefix.pch */,
+				FDEA153ABA7BD62624EFEDC878167002 /* HFDownloadManager-umbrella.h */,
+				5D09F3A84F4616356BB7FE47E9796D5B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HFDownloadManager";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDC7AB44D29E077F7D8DD868A1DB4479 /* HFDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				285B3EB21F5E527E3A00747A6BB9645C /* HFDownloadManager */,
+				B300DF826C3734944FA25A2154182E71 /* Support Files */,
+			);
+			name = HFDownloadManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F4A1B2A814115613B9412654982845F6 /* HFDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				F844DD37F5FC532FD8347F2D587EBDF0 /* HFDownloader.h */,
+				301EB3825D9C757D68DD51F5EC6B7F26 /* HFDownloader.m */,
+				88E91211AF3A13402D629278B25DD427 /* HFDownloadManager.h */,
+				FD5828D7B4CEDDE9DCFC5985EAF31BBD /* HFDownloadManager.m */,
+			);
+			name = HFDownloader;
+			path = HFDownloader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2505FC2081BB2EFD2E3553EC69B3ED92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D083DE5D80198D761CC50E9060A89AA6 /* HFDownloader.h in Headers */,
+				C1ADA361B49BC0D0C61AE39A53523FFA /* HFDownloadManager-umbrella.h in Headers */,
+				DEBFA9CEBC88C962DB261A7ED6F279FE /* HFDownloadManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74187B5C03C5C6A7E8BE30494C54BA9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389DC8805A95B113353F58710C963F9F /* Pods-HFDownloadManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938A6EE45164510EDD1B0534976A9378 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64F5C729423EB5339307753854CBA6D /* Pods-HFDownloadManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4110CDA8850C28E01EAC4E8B1E1A55F9 /* Pods-HFDownloadManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C5B116CF33BE1F7FD9D2A82EEDEBED2 /* Build configuration list for PBXNativeTarget "Pods-HFDownloadManager_Tests" */;
+			buildPhases = (
+				78D6E690141BF589334A1C8A3418D7A6 /* Sources */,
+				7F13A19A13174AAF0B968CB0C6082DEC /* Frameworks */,
+				74187B5C03C5C6A7E8BE30494C54BA9E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HFDownloadManager_Tests";
+			productName = "Pods-HFDownloadManager_Tests";
+			productReference = D5AE28BE79BC772266B4BD839D5DAD21 /* Pods_HFDownloadManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DD8B6AF9679F103A5DD7BF550033B5E /* HFDownloadManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF832B24958248E29FA74B0999597408 /* Build configuration list for PBXNativeTarget "HFDownloadManager" */;
+			buildPhases = (
+				AEBB760E5382CCE295B3857A31697FF9 /* Sources */,
+				B078C4F5992B56371AA263C8A237FC16 /* Frameworks */,
+				2505FC2081BB2EFD2E3553EC69B3ED92 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HFDownloadManager;
+			productName = HFDownloadManager;
+			productReference = 4BFFD1F47D4D02840885E629D463AD1E /* HFDownloadManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D084B2D6A602FAC551868B40013F5170 /* Pods-HFDownloadManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA4BAFA6DD31317FEF6AD2D354EC91BB /* Build configuration list for PBXNativeTarget "Pods-HFDownloadManager_Example" */;
+			buildPhases = (
+				78061F2391B4AA3A14D763A8EC0DEF7B /* Sources */,
+				9F1F9868C570811D51D3994F2E861148 /* Frameworks */,
+				938A6EE45164510EDD1B0534976A9378 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D0E4C5C617442D84A1E025FEF470FD1 /* PBXTargetDependency */,
+			);
+			name = "Pods-HFDownloadManager_Example";
+			productName = "Pods-HFDownloadManager_Example";
+			productReference = 809B905BC41F74AE611CB21E60711B6C /* Pods_HFDownloadManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 197AD2F39168B2F19D9B94F9BB4374E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD8B6AF9679F103A5DD7BF550033B5E /* HFDownloadManager */,
+				D084B2D6A602FAC551868B40013F5170 /* Pods-HFDownloadManager_Example */,
+				4110CDA8850C28E01EAC4E8B1E1A55F9 /* Pods-HFDownloadManager_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78061F2391B4AA3A14D763A8EC0DEF7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45CFC1F3E69175615E37BF69F148273 /* Pods-HFDownloadManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D6E690141BF589334A1C8A3418D7A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE1BEDD25A862155300B17D9657BF4D /* Pods-HFDownloadManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEBB760E5382CCE295B3857A31697FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CAEE8A42DD2A1C50E1B4F27E1D2E435 /* HFDownloader.m in Sources */,
+				2331361CA65707215D1F5695C40140A9 /* HFDownloadManager-dummy.m in Sources */,
+				39D9B33FC91D48910295BBC4E68B1732 /* HFDownloadManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D0E4C5C617442D84A1E025FEF470FD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HFDownloadManager;
+			target = 8DD8B6AF9679F103A5DD7BF550033B5E /* HFDownloadManager */;
+			targetProxy = 1B0CE9FB89E93EDE8CB5273A672EEB23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63C374769CA176229F1ABA50E888517E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 119013630059EE936C7A67943589FEB8 /* Pods-HFDownloadManager_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HFDownloadManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HFDownloadManager_Example/Pods-HFDownloadManager_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HFDownloadManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FA90E380680D2AF24B35EA2CA041449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFBD0C74257A87CD274987E0906A27C7 /* HFDownloadManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HFDownloadManager/HFDownloadManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HFDownloadManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HFDownloadManager/HFDownloadManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HFDownloadManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E591AFC3BE86C4A324B81D229CC6FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA4A908DA62AD1385AC724E72F1EFBDB /* Pods-HFDownloadManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HFDownloadManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HFDownloadManager_Tests/Pods-HFDownloadManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HFDownloadManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D31F6BC0879EAFCF51B2854EB2ACA3F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86ED04157F7BDF54F54A0AD816007848 /* Pods-HFDownloadManager_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HFDownloadManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HFDownloadManager_Example/Pods-HFDownloadManager_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HFDownloadManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3757F52BA67C7BD654E558FCFF85B1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFBD0C74257A87CD274987E0906A27C7 /* HFDownloadManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HFDownloadManager/HFDownloadManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HFDownloadManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HFDownloadManager/HFDownloadManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HFDownloadManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EFA3EC850B49EBDFBDDF3F72D752C7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421F551AC3B2C30922E0C69F871FFA55 /* Pods-HFDownloadManager_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HFDownloadManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HFDownloadManager_Tests/Pods-HFDownloadManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HFDownloadManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C5B116CF33BE1F7FD9D2A82EEDEBED2 /* Build configuration list for PBXNativeTarget "Pods-HFDownloadManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E591AFC3BE86C4A324B81D229CC6FCC /* Debug */,
+				EFA3EC850B49EBDFBDDF3F72D752C7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF832B24958248E29FA74B0999597408 /* Build configuration list for PBXNativeTarget "HFDownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA90E380680D2AF24B35EA2CA041449 /* Debug */,
+				D3757F52BA67C7BD654E558FCFF85B1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA4BAFA6DD31317FEF6AD2D354EC91BB /* Build configuration list for PBXNativeTarget "Pods-HFDownloadManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C374769CA176229F1ABA50E888517E /* Debug */,
+				D31F6BC0879EAFCF51B2854EB2ACA3F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
