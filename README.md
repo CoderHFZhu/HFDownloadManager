@@ -22,7 +22,7 @@ pod "HFDownloadManager"
 
 ## Author
 
-zack, 54666674@qq.com
+CoderHFZhu, 54666674@qq.com
 
 ## License
 
